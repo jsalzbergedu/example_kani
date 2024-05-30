@@ -1,0 +1,10 @@
+[package]
+name = "baby"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+kani-verifier = "0.51.0"
+
+[package.metadata.kani.flags]
+function-contracts = "function-contracts"
