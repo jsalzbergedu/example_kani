@@ -1,0 +1,5 @@
+[build]
+rustflags = ["-Z", "crate-attr=feature(register_tool)", "-Z", "crate-attr=register_tool(kani)"]
+
+[rust-analyzer.cargo.features]
+crate-attr = "register_tool(kanitool)"
